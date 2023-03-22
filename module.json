@@ -1,0 +1,19 @@
+{
+ "id": "lancer-scanning",
+  "title": "Lancer RPG Scanning Framework",
+  "description": "A framework that tracks when units are scanned, just so other code can use the information.",
+  "authors": [
+    {
+      "name": "Flyingcodfish"
+    }
+  ],
+  "version": "0.0.1",
+  "compatability": {
+    "minimum": "10"
+  },
+  "system": ["lancer"],
+  "scripts": [
+    "scripts/lancer-scan.js"
+  ]
+}
+  
