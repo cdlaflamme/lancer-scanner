@@ -99,3 +99,7 @@ Hooks.on("ready", function() {
 	actors.forEach(actor => actor.initScanned());
 	console.log("Actor scan status initialized.");
 });
+
+Hooks.on("hoverToken", function(token, hovered){
+	if (hovered) token.actor.initScanned();
+});
